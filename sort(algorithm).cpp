@@ -12,7 +12,7 @@ struct compareObject {
   }
 } myobject;
 
-int main () {
+int main (int argc, char *argv[]) {
   int myints[] = {32,71,12,45,26,80,53,33};
   
   std::vector<int> myvector (myints, myints+8);               // 32 71 12 45 26 80 53 33
